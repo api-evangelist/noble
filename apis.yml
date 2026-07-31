@@ -1,8 +1,29 @@
 aid: noble
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noble.png
 name: Noble
-description: Noble is a company surfaced as a portfolio company of insight-partners, paradigm, polychain
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Noble (operated by Benga Inc.) is a no-code risk and credit decisioning
+  platform that provides risk infrastructure for the full customer lifecycle.
+  Fintech companies, lenders, and banks use Noble to verify customer identity,
+  aggregate and assess credit and financial-health data from multiple sources,
+  build and launch automated underwriting and decisioning workflows with a
+  no-code Workflow Builder, and monitor customer behavior and creditworthiness
+  over time. Noble exposes this capability as a SaaS platform, an API, and an
+  embeddable widget, plus pre-built data-partner integrations, so teams can
+  build, launch, and scale digital financial products faster. Founded in 2021
+  and based in San Mateo, California, Noble is a Y Combinator company backed by
+  Insight Partners, Paradigm, and Polychain.
 url: https://raw.githubusercontent.com/api-evangelist/noble/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Risk
+- Credit Decisioning
+- Underwriting
+- Fintech
+- Financial Services
+- Identity Verification
+- Lending
+- No-Code
+- API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +54,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/noble-domain-security.yml
 - type: Website
   url: https://www.benoble.io/
+- type: DeveloperPortal
+  url: https://docs.benoble.io/
+- type: Documentation
+  url: https://docs.benoble.io/
+- type: APIReference
+  url: https://benoble.io/resources/api-documentation
+- type: Login
+  url: https://app.benoble.io/
+- type: Blog
+  url: https://www.benoble.io/product-updates/
+- type: TermsOfService
+  url: https://www.benoble.io/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.benoble.io/legal/privacy
+- type: LLMsTxt
+  url: llms/noble-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
