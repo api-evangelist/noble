@@ -49,11 +49,11 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Risk
+- Risk Management
 - Credit Decisioning
 - Underwriting
 - Fintech
-- Financial-Services
+- Financial Services
 - Identity Verification
 - Lending
 - No-Code
@@ -68,6 +68,7 @@ tags_raw:
 - Lending
 - No-Code
 - API
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
